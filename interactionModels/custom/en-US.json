@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hello world",
+            "say hello",
+            "Hello World"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesMexicoIntent",
+          "samples": [
+            "give me an interesting fact about Mexico",
+            "tell me something interesting about Mexico",
+            "tell me something interesting about Mexico"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "datos interesantes sobre mexico"
+    }
+  }
+}
